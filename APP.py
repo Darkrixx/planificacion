@@ -46,7 +46,7 @@ def planificacion_8_horas():
     try:
         # Conexión y autenticación con Odoo usando variables de entorno
         url = os.getenv('ODOO_URL', 'https://erp.snackselvalle.com')
-        db = os.getenv('DB', 'snackselvalle_fc0268f0')
+        db = os.getenv('DB', 'snackselvalle')
         username = os.getenv('USUARIO', 'josemiruiz@snackselvalle.com')
         password = os.getenv('PASSWORD', '997523cee8dc70f78df1173b4507d994e0fdfd10')
 
